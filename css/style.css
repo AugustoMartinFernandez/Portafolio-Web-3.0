@@ -283,7 +283,7 @@ nav .enlaces a:hover {
 .galeria-work {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .galeria-work .cont-work {
@@ -302,7 +302,7 @@ nav .enlaces a:hover {
 .img-work img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .textos-work {
@@ -315,7 +315,7 @@ nav .enlaces a:hover {
 }
 
 footer {
-  background: url(../images/galaxia.png);
+  background: url(../images/footer3.png);
 }
 
 .marca-logo {
@@ -372,10 +372,10 @@ footer p {
     background: #34495e;
     color: #fff;
   }
-  .textos>h1 {
+  .textos > h1 {
     font-size: 70px;
   }
-  .textos>h2 {
+  .textos > h2 {
     font-size: 35px;
   }
 
@@ -385,21 +385,22 @@ footer p {
   }
 
   :root {
-    --margenes:30px;
+    --margenes: 30px;
   }
 }
 
 @media screen and (max-width: 500px) {
   :root {
-    --espacios-contenido:25px;
+    --espacios-contenido: 25px;
   }
-  
+
   .cont-work {
     width: 85%;
   }
 
   .content-card {
     width: 85%;
+    margin: 20px;
   }
   .caja-servicios {
     width: 90%;
